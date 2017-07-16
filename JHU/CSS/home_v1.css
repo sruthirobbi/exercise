@@ -1,0 +1,296 @@
+*
+{
+	font-family: proxima-nova,sans-serif;
+	font-size: 12px;
+}
+#anchor{
+display:block;
+  background-image: url(../Image/IVAC_Home.jpg);
+  width:100%;
+
+  margin: 0 2px 0 2px;
+}
+#IVACHome
+{
+	border:none;
+	cursor:pointer;
+	background-color: white;
+
+}
+#JHSPHHome
+{
+border:none;
+	cursor:pointer;
+	background-color: white;
+
+}
+#DepartmentOfIntern
+{
+	border:none;
+	cursor:pointer;
+	background-color: white;
+}
+#IVCAHomeImage
+{
+	width:100%;
+	height:100%;
+}
+
+#JHU_search
+{
+	float:right;
+}
+#HomeNavBar
+{
+float: right;
+}
+.arrow
+{
+	width:10px;
+	height:5px;
+}
+#JHUimages
+{
+	width:100%;
+	height:10%;
+	padding: 0 !important;
+}
+.container
+{
+	width:100%;
+	/*border: 2px solid;*/
+	height: 100%;
+	/*bottom:0;*/
+	border-style: solid;
+	border-color:#D3D3D3;
+	border: 2px solid #D3D3D3;
+}
+#JHU_Content
+{
+	padding-left:2%;
+	padding-top:2%;
+	padding-right:10%;
+	font-family: Arial;
+}
+#JHU_Nav
+{
+	/*padding-left:3%;*/
+		padding-left: 0px;
+	padding-right: 0px;
+	font-family: Arial;
+
+	height: 100%;
+}
+#JHU_Tittlebox
+{
+	/*background-color: #51757c;*/
+	background: url(../Image/Title_box.jpg) repeat;
+	color:white;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 1%;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
+	font-family: georgia;
+	font-size: 14px;
+	width: 100%;
+}
+#JHU_Bootombox
+{
+	background: url(../Image/bottom_box.jpg) repeat;
+	background-color:#dcdfe5;
+	color:#dcdfe5;
+	padding-left:1%;
+	width: 100%;
+	padding-top: 0.5%;
+	padding-bottom: 0.3%;
+
+}
+/*#JHUHeader
+{
+	border-style: solid;
+	border-color:#51757c;
+	border: 2px solid #51757c;
+	
+}*/
+
+@media only screen and (max-width: 320px) {
+
+   .anchorNav { 
+      font-size: 0.6em; 
+   }
+	#JHU_Content
+	{
+		font-size: 1em;
+	}
+	#HomeNavBar
+	{
+		font-size: 0.5em;
+	}
+
+	#JHU_Tittlebox
+	{
+		width: 100%;
+		font-size: 0.6em;
+	}
+
+	#JHU_Bootombox
+	{
+		width: 100%;
+		font-size: 0.6em;
+	}
+	#JHUimages
+	{
+		width:100%;
+		height:10%;
+		padding: 0 !important;
+	}
+}
+
+#JHU_Nav {
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+.vertical1 {
+    width:1px;
+    background-color:#51757c;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:3%;
+}
+.vertical2 {
+    width:1px;
+    background-color:#51757c;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:26.5%;
+}
+#Bitmap1
+{
+	/*width:33%;*/
+	height:120px;
+}
+#Bitmap2
+{
+	/*width:33%;*/
+	height:120px;
+}
+#Bitmap3
+{
+	/*width:33.1%;*/
+	height:120px;
+}
+#JHULogo
+{
+	padding-left:4%;
+	height:50px;
+	width: 300px;
+}
+@media only screen and (max-width: 768px) , screen and (min-width: 400px;) {
+
+  	#Bitmap1
+	{
+		
+	height:160px;
+	}
+	#Bitmap2
+	{
+	
+	height:160px;
+	}
+	#Bitmap3
+	{
+	
+	height:160px;
+	}
+	#HomeNavBar
+	{
+		font-size: 0.5em;
+		
+	}
+	#JHU_Tittlebox
+	{
+		width: 100%;
+	}
+
+	#JHU_Bootombox
+	{
+		width: 100%;
+	}
+	#JHUimages
+	{
+		width:100%;
+		height:10%;
+		padding: 0 !important;
+	}
+	.anchorNav
+	{
+      font-size: 1em; 
+	}
+	#JHU_Content
+	{
+      font-size: 2em; 
+	}
+	
+}
+
+/*@media only screen and (min-width: 768px) , screen and (max-width: 1024px) {
+	.anchorNav
+	{
+      font-size: 1em; 
+	}
+	#JHU_Content
+	{
+      font-size: 3em; 
+	}
+}*/
+
+.Nav1
+{
+	    
+	    background-clip: initial;
+	    list-style: none;
+
+		border-bottom:2px solid white;
+		text-align: center;
+}
+
+.anchorNav{
+	    /*padding: 12px 10px 12px 15px;*/
+	    color: #717171;
+	    font-weight: 600;
+
+}
+.ulNav{
+background-color: rgb(230, 230, 230);
+height: 100%;
+padding-left:0%;
+
+
+}
+
+#SearchBtn {
+  background: #f7f9fa;
+  background-image: -webkit-linear-gradient(top, #f7f9fa, #919191);
+  background-image: -moz-linear-gradient(top, #f7f9fa, #919191);
+  background-image: -ms-linear-gradient(top, #f7f9fa, #919191);
+  background-image: -o-linear-gradient(top, #f7f9fa, #919191);
+  background-image: linear-gradient(to bottom, #f7f9fa, #919191);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 12px;
+  /*padding: 10px 20px 10px 20px;*/
+  border: solid #999999 1px;
+  text-decoration: none;
+}
+
+#SearchBtn:hover {
+  text-decoration: none;
+}
